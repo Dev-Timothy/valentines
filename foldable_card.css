@@ -4,7 +4,7 @@
   align-items: center;
   background-color: #ffd7ff;
   height: 100vh;
-  padding-left: 10rem;
+  padding-left: 5rem;
 }
 
 .book {
@@ -43,7 +43,7 @@
   align-content: center;
   height: 100%;
   margin: 0px;
-  font-size: 36px;
+  font-size: 40px;
 }
 
 .page1::after {

@@ -1,16 +1,17 @@
-.codepen-wrapper {
+.wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #ffd7ff;
   height: 100vh;
+  padding-left: 10rem;
 }
 
 .book {
   height: 30rem;
   width: 28rem;
   font-size: 1.4rem;
-  box-shadow: 1rem 2rem 3rem rgba(#000, .25);
+  /* box-shadow: 1rem 2rem 3rem rgba(#000, .25); */
   text-align: center;
   position: relative;
   color: #4e4848;
@@ -35,6 +36,7 @@
       transition: all 1s .3s ;
       transform-origin: 0 50%;
       z-index: 2;
+      border-radius: 0 10px 10px 0;
 } 
 
 .page1 p {
@@ -63,11 +65,10 @@
 .page2 {
   background-color: #000000;
   background-image: url(image/Nina.jpg);
-  /* background-size: 400px 300px; */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  /* background-position: -20px; */
+  border-radius: 0 10px 10px 0;
   width: 100%;
   height: 100%;
   position: absolute;
